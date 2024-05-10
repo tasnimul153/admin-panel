@@ -1,0 +1,58 @@
+.app-main {
+  display: flex;
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+.app-main .sidebar {
+  width: 250px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+.app-main .userTable {
+  flex-grow: 1;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.app-main .userTable .tableHeader, .app-main .userTable .tableRow {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 10px;
+  align-items: center;
+}
+.app-main .userTable .tableHeader > div, .app-main .userTable .tableRow > div {
+  text-align: center;
+  padding: 8px;
+}
+.app-main .userTable .tableHeader {
+  background-color: #0066ff;
+  color: #fff;
+  font-weight: bold;
+}
+.app-main .userTable .tableHeader > div {
+  padding: 15px;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+.app-main .userTable .tableHeader > div:last-child {
+  border-right: none;
+}
+.app-main .userTable .tableRow:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.app-main .userTable .tableRow:hover {
+  background-color: #f1f1f1;
+}
+.app-main .userTable .tableRow > div {
+  border-right: 1px solid #eee;
+}
+.app-main .userTable .tableRow > div:last-child {
+  border-right: none;
+}
+.app-main .userTable .tableRow .delete {
+  color: #ff0000;
+  cursor: pointer;
+}
+.app-main .userTable .tableRow .delete:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=UserControl.css.map */

@@ -1,0 +1,67 @@
+.Themes {
+  margin-top: 30px;
+  margin-left: 150px;
+  width: 70%;
+}
+
+.styleStateTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(213, 230, 255, 0.3764705882);
+  border-bottom: 2px solid #0058dd;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.styleStateTitleCustom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 213, 223, 0.3764705882);
+  border-bottom: 2px solid #dd005c;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.styleStateTitleExisting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(213, 255, 221, 0.3764705882);
+  border-bottom: 2px solid #00dd5c;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.styleStateMainTitle {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+.ticketStyles {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+  background-color: #ffffff;
+}/*# sourceMappingURL=WebEditor.css.map */
